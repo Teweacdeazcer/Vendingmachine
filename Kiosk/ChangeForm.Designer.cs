@@ -1,6 +1,6 @@
 ﻿namespace Kiosk
 {
-    partial class ChangeForm
+    partial class CompleteForm
     {
         /// <summary>
         /// Required designer variable.
@@ -85,7 +85,7 @@
             this.closeBtn.UseVisualStyleBackColor = true;
             this.closeBtn.Click += new System.EventHandler(this.closeBtn_Click);
             // 
-            // ChangeForm
+            // CompleteForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -95,7 +95,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label1);
-            this.Name = "ChangeForm";
+            this.Name = "CompleteForm";
             this.Text = "주문완료";
             this.ResumeLayout(false);
             this.PerformLayout();

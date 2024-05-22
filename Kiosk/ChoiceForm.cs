@@ -1,13 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Kiosk
 {
@@ -78,7 +72,7 @@ namespace Kiosk
             {
                 PaymentForm child = new PaymentForm(listBox1.Items.Cast<string>().ToList());
                 child.ShowDialog();
-            } else MessageBox.Show("음식을 선택하세요.");
+            } else MessageBox.Show("메뉴를 선택하세요.");
         }
     }
 }

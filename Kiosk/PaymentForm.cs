@@ -1,12 +1,7 @@
-﻿using Kiosk;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Security.Policy;
-using System.Text;
 using System.Windows.Forms;
 
 namespace Kiosk
@@ -70,7 +65,7 @@ namespace Kiosk
 
             if (change >= 0)  
             {
-                ChangeForm changeForm = new ChangeForm(change);
+                CompleteForm changeForm = new CompleteForm(change);
                 changeForm.CalculateChange(listBox1.Items.Cast<string>().ToList());
                 changeForm.ShowDialog();
             }else MessageBox.Show("투입한 금액이 부족합니다.");
